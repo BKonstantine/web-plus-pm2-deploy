@@ -61,7 +61,7 @@ const getUser = (req: Request, res: Response, next: NextFunction) => {
 };
 
 const getCurrentUser = (req: Request, res: Response, next: NextFunction) => {
-  getUserData(req.user._id, res, next);
+  getUserData(req?.user._id, res, next);
 };
 
 const updateUserData = (req: Request, res: Response, next: NextFunction) => {
