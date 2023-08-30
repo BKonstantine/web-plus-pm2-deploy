@@ -139,6 +139,6 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('https://api.mesto.front.kbuzunov.nomoredomainsicu.ru/');
+  const api = new Api('https://api.mesto.front.kbuzunov.nomoredomainsicu.ru');
 
   export default api;
